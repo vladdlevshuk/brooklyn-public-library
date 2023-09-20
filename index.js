@@ -1,5 +1,3 @@
-
-
 // ДРОП МЕНЮ (ДО РЕГИСТРАЦИИ)
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.querySelector('.icon-profile__button');
