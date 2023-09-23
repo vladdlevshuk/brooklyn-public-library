@@ -151,6 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 books: 0,
                 isSubscribed: false
             };
+            let existingUsers = localStorage.getItem('registeredUsers');
             let users = existingUsers ? JSON.parse(existingUsers) : [];
             users.push(newUser);
             localStorage.setItem('registeredUsers', JSON.stringify(users));
@@ -652,11 +653,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                         localStorage.setItem('registeredUsers', JSON.stringify(storedUsers));
                     }
-                } else if (authorizedUser) {
+                }
+                else if (authorizedUser) {
                     modalBuyBackground.classList.add('active');
                     modalBuy.classList.add('active');
-                }
-                else {
+                } else {
                     modalLoginBackground.classList.add('active');
                     modalLogin.classList.add('active');
                 }
