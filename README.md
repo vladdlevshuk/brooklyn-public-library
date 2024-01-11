@@ -20,6 +20,6 @@ The project was brought to life using the following technologies and tools:
 
 ## Deployment
 
-To explore the project, please click on the following link: [Brooklyn Public Library](https://vladdlevshuk.github.io/Brooklyn-Public-Library/)
+To explore the project, please click on the following link: [Brooklyn Public Library](https://vladdlevshuk.github.io/brooklyn-public-library/)
 
 Enjoy your visit! 📚🖥️
